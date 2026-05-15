@@ -1,5 +1,5 @@
-from hat.pdf_to_boxes.models.units.em import Em
-from hat.pdf_to_boxes.models.units.pt import Pt
+from pdf_to_boxes.models.units.em import Em
+from pdf_to_boxes.models.units.pt import Pt
 
 
 class Em2Pt(Pt):

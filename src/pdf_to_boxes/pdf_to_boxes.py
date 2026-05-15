@@ -11,15 +11,15 @@ import pdfplumber
 
 from PIL import ImageDraw
 
-from hat.pdf_to_boxes.models.box import Box
-from hat.pdf_to_boxes.models.font_box import FontBox
-from hat.pdf_to_boxes.models.units.font_path import FontPath
-from hat.pdf_to_boxes.models.units.font_name import FontName
-from hat.pdf_to_boxes.models.units.em import Em
-from hat.pdf_to_boxes.models.units.em2pt import Em2Pt
-from hat.pdf_to_boxes.models.units.pt import Pt
-from hat.pdf_to_boxes.models.units.pt2px import Pt2Px
-from hat.pdf_to_boxes.models.units.px import Px
+from pdf_to_boxes.models.box import Box
+from pdf_to_boxes.models.font_box import FontBox
+from pdf_to_boxes.models.units.font_path import FontPath
+from pdf_to_boxes.models.units.font_name import FontName
+from pdf_to_boxes.models.units.em import Em
+from pdf_to_boxes.models.units.em2pt import Em2Pt
+from pdf_to_boxes.models.units.pt import Pt
+from pdf_to_boxes.models.units.pt2px import Pt2Px
+from pdf_to_boxes.models.units.px import Px
 
 
 def find_font_path(

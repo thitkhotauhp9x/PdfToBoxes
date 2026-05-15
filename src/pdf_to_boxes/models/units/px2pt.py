@@ -1,5 +1,5 @@
-from hat.pdf_to_boxes.models.units.pt import Pt
-from hat.pdf_to_boxes.models.units.px import Px
+from pdf_to_boxes.models.units.pt import Pt
+from pdf_to_boxes.models.units.px import Px
 
 
 class Px2Pt(Pt):

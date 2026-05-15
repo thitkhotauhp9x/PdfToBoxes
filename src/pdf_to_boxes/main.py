@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from hat.pdf_to_boxes.pdf_to_boxes import PdfToBoxes
+from pdf_to_boxes.pdf_to_boxes import PdfToBoxes
 
 
 def main() -> None:
